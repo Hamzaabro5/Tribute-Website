@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #7bff004d;
+}
+.bg-green{
+    width: 150vh;
+    position: absolute;
+    right: 13%;
     border: 10px solid green;
-    margin: 0 250px;
+    background-color: #7bff004d;
 }
 .top-section{
     margin-top: 100px;
@@ -29,11 +33,13 @@ body{
     overflow: hidden;
 }
 .about-section h1{
+    margin-left: 10px;
     margin-top: 80px;
     font-size: 60px;
     color: #004100;
 }
 .about-section p{
+    margin-left: 20px;
     margin-top: 20px;
     color: #004100;
     line-height: 25px;
@@ -41,11 +47,13 @@ body{
     word-spacing: 2px;
 }
 .bio-section h2{
+    margin-left: 10px;
     margin-top: 50px;
     color: #004100;
     font-size: 30px;
 }
 .bio-section ul{
+    margin-left: 25px;
     margin-top: 20px;
     color: #004100;
 }
@@ -55,6 +63,8 @@ li{
 }
 .bio-section h3{
     margin-top: 80px;
+    margin-bottom: 40px;
+    margin-right: 20px;
     color: #004100;
     text-align: end;
 }
